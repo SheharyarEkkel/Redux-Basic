@@ -6,7 +6,7 @@ import { Provider } from "react-redux";
 import App from "./App";
 
 const rootElement = document.getElementById("root");
-const root = createRoot(rootlement);
+const root = createRoot(rootElement);     //use of undeclared variable: rootlement [E0057]
 
 root.render(
   <StrictMode>
