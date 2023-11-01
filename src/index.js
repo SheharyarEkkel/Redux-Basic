@@ -6,7 +6,7 @@ import { Provider } from "react-redux";
 import App from "./App";
 
 const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
+const root = createRoot(rootlement);
 
 root.render(
   <StrictMode>
