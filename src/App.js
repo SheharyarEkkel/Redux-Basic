@@ -3,9 +3,9 @@ import { useSelector, useDispatch } from "react-redux";
 import { addTen, subs, TimeAddVal } from "./redux/counter/action";
 
 export default function App() {
-  const numval = useSelector((state) => state.counter.counterValue);
-  const AsynObj = useSelector((state) => state.counter);
-  const dispatch = useDispatch();
+  cost numval = useSelector((state) => state.counter.counterValue);
+  cost AsynObj = useSelector((state) => state.counter);
+  cost dispatch = useDispatch();
   return (
     <div className="App">
       <h1>Hello CodeSandbox</h1>
