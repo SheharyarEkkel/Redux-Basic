@@ -1,7 +1,7 @@
 export function TimeConsumerDelay({ func, time }) {
   return new Promise((res, rej) => {
-    settimeout(() => {
-      if (method) {
+    setTimeout(() => {     
+      if (func) {     
         res("success");
       } else {
         rej("error");
